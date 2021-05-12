@@ -1,0 +1,65 @@
+.t1{
+    font-size:15px !important;
+}
+.t2{
+    font-size:40px !important;
+}
+.t3{
+    font-size:12px !important;
+}
+.img1{
+    width: 350px ;
+    border-radius: 150px 70px 0px 0px;
+    align-items: center;
+}
+.img2{
+    width: 350px ;
+    border-radius: 50px 50px 200px 50px !important;
+    align-items: end;
+    padding-left: 50px !important;
+}
+.meet{
+    text-align: center;
+}
+.meet .t3{
+    text-align: center;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+.meet img{
+    width: 180px !important;
+
+}
+.c1 {
+    align-items: center;
+}
+.tosay .mrk{
+    padding-bottom: 0px;
+}
+.img3{
+    align-items: center !important;
+    border-radius: 10px;
+    width: 150px;
+}
+.card{
+    width: 18rem;
+}
+.card .card-img-top{
+    border-radius: 30px 30px 0px 0px;
+}
+.card-body{
+    border: 5px;
+    border-radius: 30px !important;
+}
+.card-link{
+    text-decoration: none !important;
+    color:  rgb(121, 16, 240);
+    
+}
+.inspire .card{
+    border-radius: 0px 0px 30px 30px;
+}
+
+.c4 .card{
+    border-radius: 10px 10px 10px 50px;
+}
