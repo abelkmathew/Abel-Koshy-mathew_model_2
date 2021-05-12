@@ -6,18 +6,19 @@
     padding-right: 5px ;
 }
 .num{
-    display: inline;
     padding-left: 2px !important;
 }
-.bi bi-telephone{
+nav .nav-item .bi bi-telephone{
     padding-left: 50px;
+    text-align:right !important;
 }
 .fol{
     padding: 5px;
 }
 .copyright{
     display:inline;
-    align-items:center !important;
+   
+    margin-top: 0px;
     
 }
 .submit{
@@ -29,12 +30,76 @@
 .mail{
     border-radius: 20px;
 }
+
+.btn1{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(10, 183, 236) !important;
+    font-weight: bold
+}
 .btn2{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
+    color: #fff;
+    background-color: rgb(83, 4, 185) !important;
+    font-weight: bold
 }
-
+.btn3{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: rgb(8, 121, 214);
+    background-color: #fff !important;
+    font-weight: bold
+}
 .c4 .bi {
     width: 52px !important;
+}
+.header{
+    background-image: linear-gradient(to right, rgb(15, 33, 189) , rgb(19, 200, 224)); 
+    color: lavenderblush;
+
+}
+   
+li .bi-dash-lg{
+    -ms-transform: rotate(90deg) !important; /* IE 9 */
+    transform: rotate(90deg) !important;
+    color: black !important;
+
+}
+.icon{
+    width: 90px;
+}
+
+.c4 .col-4{
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    margin: 0px;
+}
+.flt_btn
+{
+    position: relative;
+}
+.btn4{
+    border-radius: 100%;
+    color: #fff;
+    background-color: rgb(83, 4, 185) !important;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 60px;
+}
+.btn4:hover{
+    border-radius: 100%;
+    color: #fff;
+    background-color: rgb(10, 183, 236) !important;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 60px;
+}
+.btn-close{
+    position:absolute;
+    right:10px;
 }
