@@ -1,9 +1,49 @@
+.meet .t2{
+    color: rgb(121, 16, 240);
+}
+
+.menu{
+    background-image: linear-gradient(to right, rgb(15, 33, 189) , rgb(19, 200, 224));
+    position: fixed;
+    left:0%;
+    right: 0%;
+    max-width:100% ;
+    z-index: +1;
+}
+
+.wrapper{
+    position: relative;
+    overflow: hidden;
+}
 .logo1{
     width:150px;
 }
 .nav-item{
     padding-left: 10px;
     padding-right: 5px ;
+}
+.nav-link{
+    color: rgb(243, 243, 243) !important;
+}
+.active{
+    background-color: #fff !important;
+    color:rgb(13, 110, 253) !important; 
+}
+.nav-link:hover{
+    background-color: #fff;
+    color:rgb(13, 110, 253) !important;
+}
+.dropdown-menu{
+    background-color:rgb(18,136,211)  ;
+    color: #fff !important;
+
+}
+.dropdown-item{
+    color: #fff;
+}
+.dropdown-item:hover{
+    background-color: #fff;
+    color:rgb(13, 110, 253) !important;
 }
 .num{
     padding-left: 2px !important;
@@ -16,17 +56,14 @@ nav .nav-item .bi bi-telephone{
     padding: 5px;
 }
 .copyright{
-    display:inline;
-   
+    display:inline;   
     margin-top: 0px;
     
 }
 .submit{
     display: inline;
 }
-.nav-link{
-    color: rgb(243, 243, 243) !important;
-}
+
 .mail{
     border-radius: 20px;
 }
@@ -37,7 +74,8 @@ nav .nav-item .bi bi-telephone{
     border-radius: 20px;
     color: #fff;
     background-color: rgb(10, 183, 236) !important;
-    font-weight: bold
+    font-weight: bold;
+    border-color: rgb(10, 183, 236) !important;
 }
 .btn2{
     padding-left: 20px;
@@ -61,9 +99,7 @@ nav .nav-item .bi bi-telephone{
 .header{
     background-image: linear-gradient(to right, rgb(15, 33, 189) , rgb(19, 200, 224)); 
     color: lavenderblush;
-
-}
-   
+}  
 .icon{
     width: 90px;
 }
@@ -110,4 +146,8 @@ nav .nav-item .bi bi-telephone{
 }
 .space{
     margin-top:10px ;
+}
+.responive_name{
+    display: none;
+    overflow: hidden;
 }

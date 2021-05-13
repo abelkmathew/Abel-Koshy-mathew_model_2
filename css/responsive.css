@@ -1,0 +1,110 @@
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .btn1{
+        margin-left: 30%;
+        margin-bottom: 30px;
+
+    }
+    .c3 .btn2{
+        position: static;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .c4{
+        align-items: center;
+
+    }
+    .btn3{
+        margin-left: 30%;
+        margin-bottom: 30px;
+    
+    }
+    .card{
+        margin-bottom: 20px !important;
+        margin-right: 25%;
+        /* width: auto; */
+    }
+    .inspire{
+        align-items: center;
+        padding-left: 20%;
+
+    }
+    .img3{
+        margin-left:25%;
+    }
+    .responive_name{
+        display: inline;
+        margin-left: 25%;
+    }
+    .name{
+        display: none;
+    }
+    .meet .t3{
+        margin: 0px;
+        padding-left: 2px;
+        padding-right: 5px;
+    }
+    .c2 .t1{
+        padding-top: 25px;
+    }
+    .footer1 .row{
+        display: inline;
+    }
+    .logo1{
+        margin-left: 25%;
+    }
+    .footer1 .btn2{
+        margin-left: 25% ;
+    }
+    .footer2 .row{
+        margin-left: 25%;
+    }
+    .hide2{
+        display: none;
+    }
+    .hide1{
+        display: inline;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .meet .t3{
+        margin: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .vl{
+        display: none;
+    }  
+    .nav-link:hover{
+        display: none;
+    }
+    .card{
+        width: auto;
+    }
+    .statement{
+        margin-block: 25%;
+
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .meet .t3{
+        margin: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
