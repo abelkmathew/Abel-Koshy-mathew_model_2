@@ -61,21 +61,14 @@ nav .nav-item .bi bi-telephone{
 .header{
     background-image: linear-gradient(to right, rgb(15, 33, 189) , rgb(19, 200, 224)); 
     color: lavenderblush;
-}
-   
-li .bi-dash-lg{
-    -ms-transform: rotate(90deg) !important; /* IE 9 */
-    transform: rotate(90deg) !important;
-    color: black !important;
 
 }
+   
 .icon{
     width: 90px;
 }
 
 .c4 .col-4{
-    /* padding-left: 100px;
-    padding-right: 100px; */
     margin: 0px;
 }
 .flt_btn

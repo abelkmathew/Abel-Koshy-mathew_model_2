@@ -15,7 +15,7 @@
 .img2{
     width: 350px ;
     height: 350px;
-    border-radius: 50px 50px 150px 50px !important;
+    border-radius: 100px 50px 150px 100px !important;
     padding-left: 50px !important;
 }
 .meet{
@@ -23,14 +23,11 @@
 }
 .meet .t3{
     text-align: left;
-    /* padding-left: 450px;
-    padding-right: 450px; */
     margin-left: 450px;
     margin-right: 450px;
 }
 .meet img{
     width: 180px !important;
-
 }
 .c1 {
     align-items: center;
@@ -45,6 +42,7 @@
 }
 .card{
     width: 18rem;
+    position: static;
 }
 .card .card-img-top{
     border-radius: 30px 30px 0px 0px;
@@ -69,7 +67,6 @@
     font-size: small;
     font-weight: lighter;
 } 
-
 .c4 .card{
     border-radius: 10px 10px 10px 50px;
 }
@@ -104,10 +101,32 @@
     color: rgb(121, 16, 240);
 }
 
-.header .c0{
-    position: fixed;
-    margin-left: 50px;
-}
 .test{
-    background-image: linear-gradient(to right, rgb(15, 33, 189) , rgb(19, 200, 224))
+    background-image: linear-gradient(to right, rgb(15, 33, 189) , rgb(19, 200, 224));
+    position: fixed;
+    left:0%;
+    right: 0%;
+    max-width:100% ;
 }
+
+
+/* svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.try {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+} */
+/* body {
+    overflow: hidden;
+} */
