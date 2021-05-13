@@ -61,7 +61,6 @@ nav .nav-item .bi bi-telephone{
 .header{
     background-image: linear-gradient(to right, rgb(15, 33, 189) , rgb(19, 200, 224)); 
     color: lavenderblush;
-
 }
    
 li .bi-dash-lg{
@@ -102,4 +101,20 @@ li .bi-dash-lg{
 .btn-close{
     position:absolute;
     right:10px;
+}
+.vl {
+    border-left: 3px solid #fff;
+    margin-top:3px;
+    height: 40px;
+  }
+.header i.bi-telephone{
+    text-align:left !important;
+    display: inline;
+  }
+.header .num {
+    text-align:left !important;
+    display: inline;
+}
+.space{
+    margin-top:10px ;
 }
